@@ -99,8 +99,8 @@ moderate dropout gave the best balance.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Simple RNN | 923,655 | 11 | 4.120 | 61.6 | 21.3% | **47.8%** | 55.8 |
 | Bidirectional RNN | 1,450,759 | 5 | 4.285 | 72.6 | 19.7% | 44.6% | 53.8 |
-| **LSTM** | 1,318,407 | 4 | **4.099** | **60.3** | **21.9%** | 47.3% | 57.1 |
-| GRU | 1,186,823 | 4 | 4.131 | 62.2 | 21.2% | 47.0% | 52.0 |
+| **LSTM** | 1,318,407 | 4 | **4.099** | **60.3** | **21.9%** | 47.2% | 57.1 |
+| GRU | 1,186,823 | 4 | 4.130 | 62.2 | 21.2% | 47.0% | 52.0 |
 
 Compared with the starting configuration, test perplexity improved for every
 model: LSTM 63.1 → 60.3, GRU 65.4 → 62.2, Simple RNN 67.5 → 61.6, BiRNN 72.7 → 72.6.
@@ -192,6 +192,8 @@ forward by one.
 
 ```
 fgai-rnn-text-generation/
+├── Unmesh_230911030_FGAI_Assignment2.pdf / .docx   # submission document
+├── scripts/make_submission.py                      # builds the .docx from results/
 ├── main.py                 # full pipeline: data -> train 4 models -> evaluate -> sample -> plots
 ├── textgen/
 │   ├── data.py             # Gutenberg cleanup, tokeniser, vocabulary, windowed datasets
