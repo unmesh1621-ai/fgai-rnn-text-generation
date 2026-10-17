@@ -1,0 +1,103 @@
+{
+ "total_tokens": 49681,
+ "train_tokens": 39744,
+ "val_tokens": 4968,
+ "test_tokens": 4969,
+ "vocab_size": 1543,
+ "test_unk_rate": 0.1218,
+ "train_windows": 39734,
+ "val_windows": 4958,
+ "test_windows": 4959,
+ "context": 10,
+ "most_common_train": [
+  [
+   ",",
+   2348
+  ],
+  [
+   ".",
+   2095
+  ],
+  [
+   "the",
+   2071
+  ],
+  [
+   "and",
+   1103
+  ],
+  [
+   "of",
+   1010
+  ],
+  [
+   "to",
+   848
+  ],
+  [
+   "a",
+   818
+  ],
+  [
+   "i",
+   629
+  ],
+  [
+   "he",
+   618
+  ],
+  [
+   "in",
+   584
+  ]
+ ]
+}
+
+== Simple RNN  (693,383 parameters)
+  epoch  1  train 5.201  val 4.537  ppl 93.4
+  epoch  2  train 4.611  val 4.367  ppl 78.8
+  epoch  3  train 4.361  val 4.307  ppl 74.2
+  epoch  4  train 4.198  val 4.288  ppl 72.8
+  epoch  5  train 4.070  val 4.311  ppl 74.5
+  epoch  6  train 3.969  val 4.274  ppl 71.8
+  epoch  7  train 3.889  val 4.295  ppl 73.3
+  epoch  8  train 3.804  val 4.305  ppl 74.1
+  epoch  9  train 3.626  val 4.308  ppl 74.3
+  early stop (best epoch 6)
+  test: {'model': 'Simple RNN', 'params': 693383, 'best_epoch': 6, 'train_seconds': 28.8, 'loss': 4.2128, 'perplexity': 67.5452, 'top1_acc': 0.1976, 'top5_acc': 0.4604}
+
+== Bidirectional RNN  (1,187,719 parameters)
+  epoch  1  train 5.397  val 4.776  ppl 118.6
+  epoch  2  train 4.824  val 4.491  ppl 89.2
+  epoch  3  train 4.532  val 4.419  ppl 83.0
+  epoch  4  train 4.342  val 4.357  ppl 78.1
+  epoch  5  train 4.189  val 4.334  ppl 76.3
+  epoch  6  train 4.045  val 4.330  ppl 75.9
+  epoch  7  train 3.915  val 4.368  ppl 78.9
+  epoch  8  train 3.802  val 4.387  ppl 80.4
+  epoch  9  train 3.549  val 4.409  ppl 82.2
+  early stop (best epoch 6)
+  test: {'model': 'Bidirectional RNN', 'params': 1187719, 'best_epoch': 6, 'train_seconds': 46.8, 'loss': 4.2858, 'perplexity': 72.658, 'top1_acc': 0.1902, 'top5_acc': 0.4408}
+
+== LSTM  (989,831 parameters)
+  epoch  1  train 5.057  val 4.395  ppl 81.1
+  epoch  2  train 4.422  val 4.269  ppl 71.5
+  epoch  3  train 4.118  val 4.216  ppl 67.8
+  epoch  4  train 3.885  val 4.217  ppl 67.8
+  epoch  5  train 3.693  val 4.269  ppl 71.4
+  epoch  6  train 3.375  val 4.275  ppl 71.9
+  early stop (best epoch 3)
+  test: {'model': 'LSTM', 'params': 989831, 'best_epoch': 3, 'train_seconds': 33.4, 'loss': 4.1439, 'perplexity': 63.0506, 'top1_acc': 0.2039, 'top5_acc': 0.4656}
+
+== GRU  (891,015 parameters)
+  epoch  1  train 5.073  val 4.419  ppl 83.0
+  epoch  2  train 4.442  val 4.287  ppl 72.7
+  epoch  3  train 4.132  val 4.250  ppl 70.1
+  epoch  4  train 3.891  val 4.247  ppl 69.9
+  epoch  5  train 3.686  val 4.288  ppl 72.8
+  epoch  6  train 3.498  val 4.326  ppl 75.7
+  epoch  7  train 3.184  val 4.376  ppl 79.5
+  early stop (best epoch 4)
+  test: {'model': 'GRU', 'params': 891015, 'best_epoch': 4, 'train_seconds': 40.3, 'loss': 4.1812, 'perplexity': 65.4425, 'top1_acc': 0.2113, 'top5_acc': 0.4697}
+
+Done. Results in results/

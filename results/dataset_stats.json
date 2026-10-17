@@ -1,0 +1,54 @@
+{
+  "total_tokens": 49681,
+  "train_tokens": 39744,
+  "val_tokens": 4968,
+  "test_tokens": 4969,
+  "vocab_size": 1543,
+  "test_unk_rate": 0.1218,
+  "train_windows": 39734,
+  "val_windows": 4958,
+  "test_windows": 4959,
+  "context": 10,
+  "most_common_train": [
+    [
+      ",",
+      2348
+    ],
+    [
+      ".",
+      2095
+    ],
+    [
+      "the",
+      2071
+    ],
+    [
+      "and",
+      1103
+    ],
+    [
+      "of",
+      1010
+    ],
+    [
+      "to",
+      848
+    ],
+    [
+      "a",
+      818
+    ],
+    [
+      "i",
+      629
+    ],
+    [
+      "he",
+      618
+    ],
+    [
+      "in",
+      584
+    ]
+  ]
+}
