@@ -1,95 +1,95 @@
-[Simple RNN | T=0.3] it was the >> ring, and the murderer was a man of the room. the old was a man, he said, and the little girl of the street. i had no idea that he had been absent, and
+[Simple RNN | T=0.3] it was the >> ring, and the murderer was a deep impression of the man, and his face, and he had been a little girl, and that he had been taken. i have no doubt that he had been
 
-[Simple RNN | T=0.3] sherlock holmes said that >> the man who had been a man, and i am no. you are a man to be lost to the house. the old woman was no avail. the old was a man in the street.
+[Simple RNN | T=0.3] sherlock holmes said that >> i had no idea that he had been a man, and the latter of a man, and the child of the man, and the child of the man, and the latter perceived the door. i
 
-[Simple RNN | T=0.3] the man who had >> been the best. he had been absent, and the other belonged, and a large man who had occurred been a man, and i am to be a man. he had been absent, and that
+[Simple RNN | T=0.3] the man who had >> been adopted and his eyes. the man was so dirty, and the latter of the man, and the man was so dirty and of the young hunter, and the lord stretched him. he was a
 
-[Simple RNN | T=0.7] it was the >> business, and a fair or two who had no effect, said lestrade. you are you have to you? he might go. he seized him to me. you have the strong asked of every avail
+[Simple RNN | T=0.7] it was the >> best of the sierra blanco, and at figures. he had been a man of us. have you come in the sacred go and the trichinopoly. convinced would be done. the lauriston gardens mystery said,
 
-[Simple RNN | T=0.7] sherlock holmes said that >> i am and so much. there are no easy all. i have been a laugh at the room, of course, he said, in the world, and it in the room, and i had
+[Simple RNN | T=0.7] sherlock holmes said that >> i had no idea to the constable, he said. chapter iv, her father had been committed. it was quite thick for, but in the world there was quite dead together and had finished the natural
 
-[Simple RNN | T=0.7] the man who had >> been it? i asked. no papers, and i am no means, i shall come, he said. the old farmer of an broad. there was a man who are my companion. drebber,
+[Simple RNN | T=0.7] the man who had >> been it? i asked. i have just no clue that i can go up to his feet and endeavoured. the two detectives waiting in his eyes. at the door was a long chap, and the
 
-[Simple RNN | T=1.0] it was the >> street. saw something comes, he answered. with a point or objects in the twenty of the word. he was not, in a yellow man: his own secretary by the candle. there is no
+[Simple RNN | T=1.0] it was the >> old thing saw something to her little other. i wonder, said, and smart to his own conclusions. he was never seen in the direction of the latch, and by nothing else. opposite the word
 
-[Simple RNN | T=1.0] sherlock holmes said that >> they were still me for his moment through the mormon which had been been absent caught his age, of a clue. he were to our mouth. let through the dark. you were not strong enough to
+[Simple RNN | T=1.0] sherlock holmes said that >> they were still able to his feet and none knew that he had been a fair. on his farm and water. he should seem still motion. let us hear dark. you were not know if you
 
-[Simple RNN | T=1.0] the man who had >> no rain, however, gregson by his farm, he burst to be. to the constable, he answered, round my blue rose to himself to be a couple of water and after the house. do
+[Simple RNN | T=1.0] the man who had >> no not as his companion were about his eyes, had a sharp, and the little advantage, he answered, to my blue room. no means to taking a medical water at all. the street do
 
-[Simple RNN | T=1.3] it was the >> empty room. i could draw again in voice, heaven drebber, jefferson hope seized into the friend flat in an low of a mountain cloud of the room which. i gathered as to laugh against objects lestrade
+[Simple RNN | T=1.3] it was the >> empty room. i could draw again in voice, heaven drebber, jefferson hope, savage though, i cannot that that instant a mountain cloud other as by it. i gathered on my good against him lestrade
 
-[Simple RNN | T=1.3] sherlock holmes said that >> sprang upon one children and stick at the council days leading? the spirit of the elders ash the crowd was garden to tell our importance. footsteps on all meeting? she asked. will rushed once see at
+[Simple RNN | T=1.3] sherlock holmes said that >> mother's upon one of an things so the council days lay a hat from them. it can't the wants was about to tell we have stayed to any time or trace of utah. i seem to see it
 
-[Simple RNN | T=1.3] the man who had >> been warm and gardens am too for strange you are here. you should from most half doctor between them of my him has been any at her sight death flat, already gave the line. he had already
+[Simple RNN | T=1.3] the man who had >> been warm and resolute before they made our prophet. john ferrier, above from thirst half entered between shoulder, my arms has faced, at her sight upon his mother's more gave the worse. his appearance was
 
-[Bidirectional RNN | T=0.3] it was the >> ring, and the murderer, and had been a little girl of the whole thing of the victim, and the murderer, and the same energy of the hunter of the sierra blanco, and that the lord
+[Bidirectional RNN | T=0.3] it was the >> ring. the man, and that was a medical of the man was a man was close, and her square of the room, and he was a empty square of the saints, and he was the
 
-[Bidirectional RNN | T=0.3] sherlock holmes said that >> he had not been and the other, and found the same concluded a little girl, and the other of the garden of the lord was leading the stairs. the lord and the lord had been a little
+[Bidirectional RNN | T=0.3] sherlock holmes said that >> the question. the question was a man was close, and the empty of the city, and the child of the band of the mountains. the flower of the saints and the latter, and was a
 
-[Bidirectional RNN | T=0.3] the man who had >> been the stairs. the same stretched into the pathway a flight of the victim, and the lord of the lord of the murderer. sometimes, and the lord of the lord, and the lord was a
+[Bidirectional RNN | T=0.3] the man who had >> been the house. the same garden, and was a little of the empty of the saints, and there was a little of the little of the fire, and there was a little of the case of
 
-[Bidirectional RNN | T=0.7] it was the >> business, and a fair or one at a word. clearly resolute, and called us. have you to see the use of it is just him to me. he had met. there was a little
+[Bidirectional RNN | T=0.7] it was the >> chosen of the. the young and at figures. he had resolute a half called us. his pocket. god the might go, he said him to me. the room, looking, and said,
 
-[Bidirectional RNN | T=0.7] sherlock holmes said that >> i had been so and the lord found the same not gate into the murderer into the wall of them of an latch and the house, and on the roadway and again upon the room which was no nails
+[Bidirectional RNN | T=0.7] sherlock holmes said that >> i had and the more which there was no easy not gate in the most evening of the chosen. it was to not be, the man, i answered, said my companion; and that i had
 
-[Bidirectional RNN | T=0.7] the man who had >> been it? i ought that he might be a little girl. it is up on the hall and you the man of the hall when he is come at the lonely. holmes, the passage fire,
+[Bidirectional RNN | T=0.7] the man who had >> been it? i have the working of his own clue the head. the trade, lauriston, and was the man of the window. as his hands was the expression was along, the stairs fire,
 
-[Bidirectional RNN | T=1.0] it was the >> old thing saw something, her little other bull began and, or better in dust after for an evening. candle ii to be in motion and working, and the secretary of your son was an end in
+[Bidirectional RNN | T=1.0] it was the >> old thing saw something to her little trade. i am sure at our listened, twenty for in the brixton candle and never of crime. and then the daily, in every chair, with an the faced
 
-[Bidirectional RNN | T=1.0] sherlock holmes said that >> i asked. see? he asked! we had gone round the pathway arm caught his attention. of a water. he should seem still mrs thing, but there was unable,, and then a happy
+[Bidirectional RNN | T=1.0] sherlock holmes said that >> they were ready me? against moment a little had some special working or think a little very clever of a clue. he you think still motion thing to do, dark. you, here didn't a happy
 
-[Bidirectional RNN | T=1.0] the man who had >> a transparent creed during the ground of his cry, of a new, and tried the two miles bearing her, round my end of the pathway bright to be a week water at all the main holmes of
+[Bidirectional RNN | T=1.0] the man who had >> been not, however, the of his violence man had a already had been leading committed. the landlady,, said my blue rose to leave the leader a couple of water and said. the street of
 
-[Bidirectional RNN | T=1.3] it was the >> empty that said holmes, thirst, in voice drink down the feet jefferson hope, savage of his flat bright that that instant a mountain trace of small which possessed. i gathered on my laugh against objects lestrade
+[Bidirectional RNN | T=1.3] it was the >> empty that said out private thirst again in voice, many drebber, jefferson for two savage of deduction. what that that hour a mountain terrible other small which possessed. i gathered as my head against long lestrade
 
-[Bidirectional RNN | T=1.3] sherlock holmes said that >> mother's the one children and showed at the council days of human of the read north it can't the crowd was very careful, we reached water of his chair and it is written be for its secretary and filled
+[Bidirectional RNN | T=1.3] sherlock holmes said that >> it was one children and at his the council days of? the end of the doubt plain the plain was garden to entered we have realize old on all first is she inside the wilderness rushed, and filled
 
-[Bidirectional RNN | T=1.3] the man who had >> been warm and resolute before they walked our you began and herself to above from the mouth entered the valley of my arms perceived, small fairly city wedding death flat, already gave the worse. clear appearance disturbed
+[Bidirectional RNN | T=1.3] the man who had >> been warm and gardens before they made our side says might not little desert from the half entered horses had john. him has he, at her sight here we was already it to his imagination, and made
 
-[LSTM | T=0.3] it was the >> ring. the man was a man of the room, and the latter to him, and he was a man of the room, and he was a man of the door, and the latter to the
+[LSTM | T=0.3] it was the >> ring. i have a very bad of the case of the man, and the two castaways, and the two detectives, and the two castaways of the young girl. the door, and the first of
 
-[LSTM | T=0.3] sherlock holmes said that >> i had no doubt that he was a man of a man who had been a large of the room, and then the door, and the latter, and the latter to be the door, and then
+[LSTM | T=0.3] sherlock holmes said that >> i had no doubt that i am ready to be a mistake, and then? i asked. you will be a mistake of the house. he was a very smart in the room, and the first
 
-[LSTM | T=0.3] the man who had >> been a large of the same, and the door, and the other was a man of the man who had been a large of the case. the man was a man of him. you will find
+[LSTM | T=0.3] the man who had >> been a long of the same. i have no doubt that i had no idea that the man was a man of the door. he was a cab, and the two castaways and the door, and
 
-[LSTM | T=0.7] it was the >> business of the door, and then at the gate. it is a man called us. have you. this man might go it is as him as though as he spoke, and there was a little
+[LSTM | T=0.7] it was the >> chosen of the light, or two at, i thought; you are you called us. have you managed to be a go and somewhat as him as though as he spoke, and there was a half
 
-[LSTM | T=0.7] sherlock holmes said that >> i had and hunger to the constable, and the latter to the door, however, and so many it was quite to be, but in the world, and again the mountains which had been there appeared
+[LSTM | T=0.7] sherlock holmes said that >> i had no one of the base of the saints. chapter iv, her father had been so. it was at the ground, the man was a help and glance from the affair. hence, nails
 
-[LSTM | T=0.7] the man who had >> been it? i asked. no one, and i asked. it is up on the case and you? she asked. sherlock holmes, and there was a man who along the began to the door
+[LSTM | T=0.7] the man who had >> been it? i asked. no answer, he said, and the other up, but, he said. the two detectives and a little girl in the morning, and the line of their fire,
 
-[LSTM | T=1.0] it was the >> street. saw such long her little other. i wonder to find that once has twenty for an evening. he was never of crime in the bell, and the west was not observed. there is no
+[LSTM | T=1.0] it was the >> old thing. drebber, her little front. i wonder, dropping, and the two of deduction is. candle ii, that in the first man, and the stride type, observed no victim the word
 
-[LSTM | T=1.0] sherlock holmes said that >> they asked into the astonished against that he was a message special working or on a little girl. of a clue. he should like still mrs. the door, dark, and, so dirty a short
+[LSTM | T=1.0] sherlock holmes said that >> i asked to see? he asked. none knew that he answered. on a wore very clever of those water. he should be still of the finger which stood them from the way among the end of
 
-[LSTM | T=1.0] the man who had >> been making, however, and listen from afghanistan, he said, all. they were still me now, however, my blue of both, and to a couple of water at him. the street of
+[LSTM | T=1.0] the man who had >> no time, however, and by his hand, had therefore to be. the little may miles now, however, my blue rose to be the shoulder. i will water at all right, holmes do
 
-[LSTM | T=1.3] it was the >> empty that shores out of thirst, in voice, heaven drebber, jefferson hope, stood though friend i cannot that that instant a mountain cloud of small thirst which he has afghanistan himself to laugh against long lestrade
+[LSTM | T=1.3] it was the >> empty that shores out of thirst, in voice, many drebber, jefferson hope, savage though friend i ain't that i hour a mountain cloud of small died recognized. i gathered as my address against him lestrade
 
-[LSTM | T=1.3] sherlock holmes said that >> sprang upon the children of his watch. council days in a hat of them. it can't the crowd was very careful, we have stayed footsteps on the first nevada of utah the west rushed once and filled
+[LSTM | T=1.3] sherlock holmes said that >> it was one of an stick at the council days in a hat which rang to it to the crowd when the same entered we reached the old on the first: she inside the blood rushed brought me at
 
-[LSTM | T=1.3] the man who had >> been warm and resolute before they made our you began and look to above from the mouth entered the valley of my him has. any at you things here we mother's more it? has been afterwards safely him
+[LSTM | T=1.3] the man who had >> been warm and gardens before they made our prophet. here would make above from escape half you don't i know my him. he knows at her sight down we was already gave the hospital. he had already
 
-[GRU | T=0.3] it was the >> ring of the case. it was a sergeant of the death of the mountains. he had been the same of the room, and that he had been a large of the door. it was not the
+[GRU | T=0.3] it was the >> ring. i have a very good reason. i shall do to tell you. i have made the worse of the worse. i had no idea that i had hardly to tell you. i shall do
 
-[GRU | T=0.3] sherlock holmes said that >> he had been a more of his hand. he was not quite to the house, and the lord was a tall. the lord was not a tall. the man was placed to the gate, and
+[GRU | T=0.3] sherlock holmes said that >> the man was a long chain of the latch. there were no doubt of a man, and the other hand of the latch of the saints. i have nothing to tell you. i shall do you
 
-[GRU | T=0.3] the man who had >> been the door. the same man was a tall of his hand, and a brownish one of the house. the old farmer was not to be done. he had been a good. you have been
+[GRU | T=0.3] the man who had >> been the worse. i have no doubt that he had been a man of a man, and his daughter had been a woman's wedding ring, and the other hand of the west. i have made a
 
-[GRU | T=0.7] it was the >> place of the mountains, and the who figures the window had resolute through a called which was heard to unravel one. the railings was a more of the man of the railings streets. there was a very
+[GRU | T=0.7] it was the >> business of the mountains, and i saw a short which had resolute through a glance which was familiar to you. i might go to think before him to me. i have good. i saw said,
 
-[GRU | T=0.7] sherlock holmes said that >> i had no idea to speak to you to see you. where are are as free as he spoke, i even to be, if you have a help to come from the more which was so that
+[GRU | T=0.7] sherlock holmes said that >> i had given to tell you. chapter iii. you shall have not been evening for this? i asked. at my view, however, but i am not quite to the best, but i simply
 
-[GRU | T=0.7] the man who had >> been it? where the two detectives with his eyes. he had been heard in the sight of his habits. the question was a glass of his hand. the reasoning was a line of a fire,
+[GRU | T=0.7] the man who had >> been it? asked. his took his clothes, and the remained face, up on his face and, the fields of the window when we shall come at my own eyes. my companion, i saw
 
-[GRU | T=1.0] it was the >> regular. his voice saw her little appearance. this! he won't, and if she would be learned. he was not, in a voice, and his brownish wore expression, observed that victim the whip
+[GRU | T=1.0] it was the >> street. i would saw her little trade not this!, she is listened than twenty for in the brixton road. chapter iv in a little man, and could pieces expression, with every victim i saw
 
-[GRU | T=1.0] sherlock holmes said that >> i asked to see? he asked. none had some end working or on a little girl. of a violin is observer you see our start. my health fellow dark from you, so said, happy
+[GRU | T=1.0] sherlock holmes said that >> they were able to astonished against my daughter, and which had promised been very fair. yes, of course, is the gregson of our motion. i could not dark from the way here, but has
 
-[GRU | T=1.0] the man who had >> no time, however, and listen from the man of the case, and the little may miles passed, however, my blue of both, and to a couple of water at all. the street do
+[GRU | T=1.0] the man who had >> no transparent, however, and listen not out, of course, and we shall drive together miles now,, round! said lestrade, and bright to a couple of water and said. the street do
 
-[GRU | T=1.3] it was the >> empty room. i could draw again in voice, heaven drebber, jefferson hope, savage though friend. what do that instant a mountain cloud of small detective man. i gathered i my laugh against objects lestrade
+[GRU | T=1.3] it was the >> empty that it was private thirst again in voice, heaven drebber, jefferson hope, savage though, i ain't that that hour a mountain cloud of small died man. i gathered i my, against your lestrade
 
-[GRU | T=1.3] sherlock holmes said that >> mother's the one children an slightly at the council days of a watch from them. it can't the crowd was garden to tell we reached our footsteps. whatever first through his inside the blood rushed brought see the
+[GRU | T=1.3] sherlock holmes said that >> track would make your safely, rubbing you council days in? of the pills. it is the hand was very careful entered we reached the old farmer, and is she inside the wilderness rushed once creed.
 
-[GRU | T=1.3] the man who had >> been warm and was poison windows for strange you are here. you should from the mouth of the floor of my eyes has. any man below her death flat, more it?. no man appearance him
+[GRU | T=1.3] the man who had >> been warm and gardens before they were strange you round and herself. above from the mouth entered between a gentleman. him has he spoke at her sight here we was already gave to his imagination, and made

@@ -7,17 +7,27 @@ CELLS = {"rnn": nn.RNN, "birnn": nn.RNN, "lstm": nn.LSTM, "gru": nn.GRU}
 
 
 class NextWordModel(nn.Module):
-    def __init__(self, kind, vocab_size, emb_dim=128, hidden=256, dropout=0.3):
+    def __init__(self, kind, vocab_size, emb_dim=128, hidden=256, dropout=0.3,
+                 layers=1, tie_weights=False):
         super().__init__()
         self.kind = kind
         self.bidirectional = kind == "birnn"
         self.embed = nn.Embedding(vocab_size, emb_dim, padding_idx=0)
-        self.rnn = CELLS[kind](emb_dim, hidden, batch_first=True,
-                               bidirectional=self.bidirectional)
+        self.rnn = CELLS[kind](emb_dim, hidden, num_layers=layers, batch_first=True,
+                               bidirectional=self.bidirectional,
+                               dropout=dropout if layers > 1 else 0.0)
         feat = hidden * (2 if self.bidirectional else 1)
         self.norm = nn.LayerNorm(feat)
         self.drop = nn.Dropout(dropout)
-        self.head = nn.Linear(feat, vocab_size)
+        if tie_weights:
+            # Project to the embedding size so the output layer can reuse the
+            # input embedding matrix: fewer parameters, less overfitting.
+            self.proj = nn.Sequential(nn.Linear(feat, emb_dim), nn.Tanh())
+            self.head = nn.Linear(emb_dim, vocab_size)
+            self.head.weight = self.embed.weight
+        else:
+            self.proj = nn.Identity()
+            self.head = nn.Linear(feat, vocab_size)
 
     def forward(self, x):
         out, _ = self.rnn(self.drop(self.embed(x)))
@@ -27,7 +37,7 @@ class NextWordModel(nn.Module):
             summary = out.mean(dim=1)
         else:
             summary = out[:, -1]
-        return self.head(self.drop(self.norm(summary)))
+        return self.head(self.proj(self.drop(self.norm(summary))))
 
 
 def count_params(model):

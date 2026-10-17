@@ -68,7 +68,7 @@ def plot_bars(rows, path):
 
 def plot_temperature(temp_rows, path):
     fig, axes = plt.subplots(1, 2, figsize=(11, 4))
-    for kind, label in MODELS.items():
+    for label in dict.fromkeys(r["model"] for r in temp_rows):
         rows = [r for r in temp_rows if r["model"] == label]
         t = [r["temperature"] for r in rows]
         axes[0].plot(t, [r["distinct_2"] for r in rows], "o-", label=label)
@@ -89,9 +89,19 @@ def main():
     ap.add_argument("--out", default="results")
     ap.add_argument("--context", type=int, default=10)
     ap.add_argument("--epochs", type=int, default=20)
-    ap.add_argument("--batch", type=int, default=128)
+    ap.add_argument("--batch", type=int, default=256)
     ap.add_argument("--gen-words", type=int, default=40)
     ap.add_argument("--seed", type=int, default=1621)
+    ap.add_argument("--emb", type=int, default=256)
+    ap.add_argument("--hidden", type=int, default=256)
+    ap.add_argument("--layers", type=int, default=1)
+    ap.add_argument("--dropout", type=float, default=0.4)
+    ap.add_argument("--tie", action="store_true", help="tie input/output embeddings")
+    ap.add_argument("--lr", type=float, default=2e-3)
+    ap.add_argument("--weight-decay", type=float, default=1e-4)
+    ap.add_argument("--models", default=",".join(MODELS), help="comma-separated subset")
+    ap.add_argument("--no-test", action="store_true",
+                    help="tuning mode: report validation only, skip test/sampling")
     ap.add_argument("--quick", action="store_true", help="2 epochs, tiny run")
     args = ap.parse_args()
     if args.quick:
@@ -122,12 +132,19 @@ def main():
     test_dl = DataLoader(test_ds, batch_size=512)
 
     histories, rows, temp_rows, samples = {}, [], [], []
-    for kind, label in MODELS.items():
+    for kind in args.models.split(","):
+        label = MODELS[kind]
         set_seed(args.seed)
-        model = NextWordModel(kind, len(vocab))
+        model = NextWordModel(kind, len(vocab), emb_dim=args.emb, hidden=args.hidden,
+                              dropout=args.dropout, layers=args.layers,
+                              tie_weights=args.tie)
         print(f"\n== {label}  ({count_params(model):,} parameters)")
-        hist = train_model(model, train_dl, val_dl, device, epochs=args.epochs)
+        hist = train_model(model, train_dl, val_dl, device, epochs=args.epochs,
+                           lr=args.lr, weight_decay=args.weight_decay)
         histories[kind] = hist
+        if args.no_test:
+            print(f"VAL {label} {min(hist['val_loss']):.4f}")
+            continue
         torch.save(model.state_dict(), os.path.join(args.out, f"{kind}.pt"))
 
         test = evaluate(model, test_dl, device)
@@ -154,6 +171,8 @@ def main():
                 "rare_word_share": round(vocab_coverage(flat, vocab.counts), 4),
             })
 
+    if args.no_test:
+        return
     with open(os.path.join(args.out, "dataset_stats.json"), "w") as f:
         json.dump(stats, f, indent=2)
     with open(os.path.join(args.out, "histories.json"), "w") as f:
