@@ -192,8 +192,8 @@ forward by one.
 
 ```
 fgai-rnn-text-generation/
-├── Unmesh_230911030_FGAI_Assignment2.pdf / .docx   # submission document
-├── scripts/make_submission.py                      # builds the .docx from results/
+├── Unmesh_230911030_FGAI_Assignment2.pdf / .docx   # one-page submission details (black & white)
+├── scripts/make_submission.py                      # builds the submission .docx
 ├── main.py                 # full pipeline: data -> train 4 models -> evaluate -> sample -> plots
 ├── textgen/
 │   ├── data.py             # Gutenberg cleanup, tokeniser, vocabulary, windowed datasets
