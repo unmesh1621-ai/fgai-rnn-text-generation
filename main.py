@@ -89,7 +89,7 @@ def main():
     ap.add_argument("--out", default="results")
     ap.add_argument("--context", type=int, default=10)
     ap.add_argument("--epochs", type=int, default=20)
-    ap.add_argument("--batch", type=int, default=256)
+    ap.add_argument("--batch", type=int, default=128)
     ap.add_argument("--gen-words", type=int, default=40)
     ap.add_argument("--seed", type=int, default=1621)
     ap.add_argument("--emb", type=int, default=256)
